@@ -25,3 +25,4 @@ jobs:
 
       - name: Push Docker image
         run: docker push ${{ secrets.DOCKER_USERNAME }}/k8s-demo:latest
+        
